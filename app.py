@@ -4,6 +4,7 @@ from io import StringIO
 from datetime import datetime
 import pandas as pd
 from dotenv import load_dotenv
+import openai
 from langchain.memory import ConversationBufferWindowMemory
 from backend.logic import generate_answer
 
