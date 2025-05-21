@@ -3,6 +3,7 @@ import os
 from io import StringIO
 from datetime import datetime
 import pandas as pd
+from dotenv import load_dotenv
 from langchain.memory import ConversationBufferWindowMemory
 from backend.logic import generate_answer
 
