@@ -8,11 +8,7 @@ from langchain.memory import ConversationBufferWindowMemory
 from backend.logic import generate_answer
 
 # ================= ENV ===================
-load_dotenv()
-if "OPENAI_API_KEY" not in os.environ or not os.environ["OPENAI_API_KEY"]:
-    st.error("❌ OPENAI_API_KEY belum ditemukan di environment!")
-    st.stop()
-
+openai.api_key = os.getenv("OPENAI_API_KEY")
 # ================= CONFIG ===================
 st.set_page_config(page_title="Chatbot - Info INSTIKI", layout="wide")
 
