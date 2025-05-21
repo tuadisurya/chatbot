@@ -8,3 +8,4 @@ faiss-cpu
 tqdm
 tiktoken
 streamlit
+pandas
