@@ -1,0 +1,8 @@
+flask
+python-dotenv
+langchain
+langchain-community
+openai
+docx
+faiss-cpu
+tqdm
